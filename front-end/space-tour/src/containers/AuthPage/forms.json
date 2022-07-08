@@ -1,0 +1,81 @@
+{
+  "views": {
+    "forgot-password": [
+      {
+        "customBootstrapClass": "col-md-12",
+        "label": "Insira o seu email",
+        "name": "email",
+        "type": "text",
+        "placeholder": "e-mail"
+      }
+    ],
+    "login": [
+      {
+        "customBootstrapClass": "col-md-12",
+        "label": "E-mail/Username",
+        "name": "identifier",
+        "type": "text",
+        "placeholder": "e-mail/username"
+        
+        
+      },
+      {
+        "customBootstrapClass": "col-md-12",
+        "label": "Senha",
+        "name": "password",
+        "type": "password",
+        "placeholder": "senha"
+        
+      },
+      {
+        "customBootstrapClass": "col-md-6",
+        "label": "Lembre-se de mim",
+        "name": "rememberMe",
+        "type": "checkbox"
+      }
+    ],
+    "reset-password": [
+      {
+        "customBootstrapClass": "col-md-12",
+        "name": "password",
+        "type": "password",
+        "label": "Password"
+      },
+      {
+        "customBootstrapClass": "col-md-12",
+        "name": "passwordConfirmation",
+        "type": "password",
+        "label": "Confirm Password"
+      }
+    ]
+  },
+  "data": {
+    "login": {
+      "value": {
+        "identifier": "",
+        "password": "",
+        "rememberMe": false
+      }
+    },
+    "forgot-password": {
+      "value": {
+        "email": ""
+      }
+    },
+    "register": {
+      "value": {
+        "username": "",
+        "password": "",
+        "confirmPassword": "",
+        "email": ""
+      }
+    },
+    "reset-password": {
+      "value": {
+        "password": "",
+        "passwordConfirmation": "",
+        "code": ""
+      }
+    }
+  }
+}
