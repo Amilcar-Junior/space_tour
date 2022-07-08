@@ -3,7 +3,7 @@
 clone:
 git clone https://github.com/Amilcar-Junior/space_tour.git
 
-no diretorio de /front-end/space-tour
+no diretorio de /front-end
 npm install
 
 no diretorio de /back-end
