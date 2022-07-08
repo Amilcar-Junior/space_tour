@@ -9,7 +9,7 @@ npm install
 no diretorio de /back-end
 npm install
 
-#configurações back-end
+# Configurações back-end & base de dados
 use o my-sql do xampp e crie uma base de dados com o nome de spacedb e depois inicie o back-end(strapi)
 
 # iniciar frontend (react)
